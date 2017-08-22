@@ -1,12 +1,10 @@
 package com.spring1;
 
-public class TrackCoach implements Coach {
+public class ChessCoach implements Coach {
 
     @Override
     public String getDailyWorkout() {
-
-        return "Run a hard 5k";
-
+        return "Solve 5 chess scenarios";
     }
 
     @Override

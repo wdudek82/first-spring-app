@@ -6,6 +6,9 @@
         <fileset id="fileset" name="LegacyApplicationConfig" removed="false">
           <file>file://$MODULE_DIR$/src/com/spring1/legacyApplicationConfig.xml</file>
         </fileset>
+        <fileset id="fileset2" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
