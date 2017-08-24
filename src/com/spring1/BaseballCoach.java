@@ -20,10 +20,8 @@ public class BaseballCoach implements Coach {
     @Override
     public String getDailyFortune() {
 
-        return this.fortuneService.getFortune();
+        return "Baseball Coach: " + this.fortuneService.getFortune();
 
     }
-
-
 
 }
