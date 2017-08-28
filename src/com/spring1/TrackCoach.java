@@ -28,4 +28,14 @@ public class TrackCoach implements Coach {
 
     }
 
+    // add an init method
+    public void doSomeStuff() {
+        System.out.println("TrackCoach: init");
+    }
+
+    // add a destroy method
+    public void doSomeOtherStuff() {
+        System.out.println("TrackCoach: destroy");
+    }
+
 }

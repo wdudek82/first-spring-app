@@ -11,9 +11,8 @@
 
     <bean id="myCoach"
           class="com.spring1.TrackCoach"
-          scope="prototype">
-          <!--init-method="doSomeStuff"-->
-          <!--destroy-method="doSomeOtherStuff">-->
+          init-method="doSomeStuff"
+          destroy-method="doSomeOtherStuff">
 
         <!-- set up constructor injection -->
         <constructor-arg ref="myFortuneService" />
