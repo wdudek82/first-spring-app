@@ -16,8 +16,6 @@
 
         <!-- set up constructor injection -->
         <constructor-arg ref="myFortuneService" />
-
-
     </bean>
 
     <bean id="myCricketCoach"
@@ -29,7 +27,6 @@
         <!-- inject literal values-->
         <property name="emailAddress" value="${foo.email}" />
         <property name="team" value="${foo.team}" />
-
     </bean>
 
 </beans>
